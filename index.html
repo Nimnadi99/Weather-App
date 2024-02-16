@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weatherCard">
+        <div class="search">
+            <input class="serachBar" type="text" placeholder="Enter City Name......">
+            <button class="serachBack"><img class="serachButtonImage" src="images/search.png" alt=""></button>
+        </div>
+        <div class="error">Invalid City Name!!!!!</div>
+        <div class="allData">
+        <div class="weather">
+            <img class="weatherMood" src="images/mist.svg" alt="">
+        </div>
+        <div class="cel">22°C</div>
+        <div class="city">Berlin</div>
+
+        <div class="humWind">
+            <div class="Humidity">
+                <img src="images/humidity.png" alt="" class="humidityImage">
+                <div class="humText">
+                     <p class="precentage">90%</p>
+                     <p class="humidityName">Humidity</p>   
+                </div>
+            </div>
+            <div class="Wind">
+                <img src="images/wind.svg" alt="" class="windImage">
+                <div class="windText">
+                     <p class="speed">90 Km/h</p>
+                     <p class="windName">Wind Speed</p>   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
